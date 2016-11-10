@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="22"
+    density="xxhdpi"
+    format="7"
+    timestamp="548074620287287"
+    token="88464797760029949" >
+
+    <task
+        name="javac"
+        duration="115" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="9" />
+    <task
+        name="verifier"
+        duration="1" />
+
+    <artifact
+        location="/home/tristan/AndroidStudioProjects/Nemo/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
+        type="DEX" />
+
+    <build timestamp="544908204065838" >
+        <artifact
+            location="/home/tristan/AndroidStudioProjects/Nemo/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build timestamp="545261110159882" >
+        <artifact
+            location="/home/tristan/AndroidStudioProjects/Nemo/app/build/intermediates/res/resources-debug.ap_"
+            type="RESOURCES" />
+    </build>
+    <build timestamp="548074620287287" >
+        <artifact
+            location="/home/tristan/AndroidStudioProjects/Nemo/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
+            type="DEX" />
+    </build>
+
+</instant-run>

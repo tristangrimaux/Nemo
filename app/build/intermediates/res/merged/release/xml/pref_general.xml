@@ -1,0 +1,19 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/pref_user_blocks" >
+        <EditTextPreference
+            android:defaultValue="3F3F3F3F"
+            android:inputType="textCapCharacters"
+            android:digits="0123456789ABCDEF"
+            android:title="@string/pref_green_block"
+            android:summary="@string/pref_green_block_summary"
+            android:key="prefGreenBlock"/>
+        <EditTextPreference
+            android:defaultValue="000000"
+            android:inputType="textCapCharacters"
+            android:digits="0123456789ABCDEF"
+            android:title="@string/pref_red_block"
+            android:summary="@string/pref_red_block_summary"
+            android:key="prefRedBlock"/>
+    </PreferenceCategory>
+</PreferenceScreen>
